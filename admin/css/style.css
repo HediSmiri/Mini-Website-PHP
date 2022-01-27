@@ -1,0 +1,63 @@
+
+  
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 88%;
+    transform: translate(97px, 20px )
+       }
+
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    }
+
+    /* button */
+
+    .button {
+        background-color: #4caf50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+        position: relative;
+        left: 28px;
+    }
+
+    .button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    }
+
+    #back{
+        background: #998;
+        text-decoration: none;
+        padding: 10px 22px;
+        border-radius: 20px;
+        color: #fff6f6;
+        position: absolute;
+        left: 2vh;
+        bottom: 92vh;
+    }
+
+#back:hover{
+opacity: 0.8;
+}

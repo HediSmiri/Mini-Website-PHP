@@ -1,0 +1,120 @@
+*{
+    margin:0 ;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.background{
+    background-image: linear-gradient(-23deg, rgba(0, 0, 0, 0.774), transparent),linear-gradient(45deg, rgba(0, 0, 0, 0.788), transparent) , url(../img/back.jpg); 
+    /* background: rgb(2,0,36); */
+    /* background:radial-gradient(circle, rgb(4 4 4 / 64%) 0%, rgba(0,0,0,0.6699054621848739) 68%), url(../img/bg-3.jpg)    ; */
+    background-size: cover;
+    background-position: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    /* opacity: 0.8; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+ nav{
+    margin: 0;
+    background: #00000063;
+    margin-bottom: 0px;
+    z-index: 1000;
+    border: none;
+    /* color: #333; */
+    position: fixed;
+    /* margin-left: 13vh; */
+    padding-left: 12vh;
+    transition: 1s;
+    width: 100%;
+    padding-top: 9px;
+}
+
+ nav ul{
+    list-style: none;
+    color:rgb(224, 72, 72);
+    background-color: rgba(0, 0, 0, 0.767);
+    width:100% ;
+    transition: 1s;
+}
+
+ nav ul li{
+    float: left;
+    color: #fffffff2;
+    padding: 27px 14px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Kameron', serif;
+    /* margin-left: 0vh;*/
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color:#999
+}
+
+nav ul li:first-child{
+    margin-right: 95vh;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+nav ul li a {
+    color: #fffffff2;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    color:#999
+}
+
+button{
+    position: absolute;
+    top: 47%;
+    left: 43%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(96%);
+    padding: 20px 78px;
+    color: #ffffffdb;
+    font-weight: 700;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    text-transform: uppercase;
+    background-color: #0c0d2dd1;
+    border-radius: 20px;
+
+}
+
+#btn:hover{
+    opacity: 0.8;
+    color: #999;
+    cursor: pointer;
+    background-color: #3f3f4ea3;
+}
+
+.fixed{
+    color:rgb(243, 237, 237);
+    background-color: rgba(0, 0, 0, 0.767);
+    width:100% ;
+    transition: 1s;
+}
+
+.background p {
+    transform: translate(217px, 236px);
+    color: #fffffff2;
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Kameron', serif;
+    width: 66%;
+    line-height: 1.6;
+    
+}
